@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>SIH</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var chatbotIcon = document.querySelector(".chatbot_image");
+
+        window.onscroll = function () {
+          // Show the chatbot icon when scrolling down
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            chatbotIcon.style.bottom = "50px";
+          } else {
+            // Hide the chatbot icon when at the top of the page
+            chatbotIcon.style.bottom = "-100px";
+          }
+        };
+      });
+    </script>
+  </head>
+  <body>
+    <section class="nav_section">
+      <nav>
+        <div class="navbar">
+          <div class="navbar_left">
+            <img
+              src="national_emblem.jpg"
+              alt="image"
+              height="80vh"
+              width="80vw"
+            />
+            <div>
+              <h3>
+                <a href="https://www.india.gov.in/" class="indiagov"
+                  >india.gov.in</a
+                >
+              </h3>
+              <h3>National Portal of India</h3>
+            </div>
+            <span class="g20"
+              ><img src="G20.jpg" height="70vh" width="80vw"
+            /></span>
+          </div>
+          <div class="navbar_right">
+            <div>
+              <ul class="navigation_links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="#" class="active">Legal Hotline</a></li>
+                <li><a href="#" class="active">Documents</a></li>
+                <li><a href="#" class="active">Languages</a></li>
+                <li class="login_image">
+                  <a href="#" class="active">Login/SignUp</a
+                  ><img src="user.png" alt="login" width="65vw" height="65vh" />
+                </li>
+              </ul>
+            </div>
+            <div class="search_container">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" class="search_box" placeholder="Search" />
+              <img src="voice_search.jpg" height="25vh" /><img
+                src="camera.jpg"
+                height="25vh"
+              />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section class="section2">
+      <div class="container1">
+        <div class="quote_image">
+          <img src="quote.jpg" alt="image" width="50%" />
+          <p class="quote">
+            "Speak the truth,<br />
+            follow the path of rightness"
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section3">
+      <div class="news_updates">
+        <div class="list_of_updates">
+          <h2 class="news_header">
+            News and Updates
+            <hr />
+          </h2>
+          <div class="updates">
+            <ul style="list-style-type: square">
+              <li>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est,
+                totam provident? Ipsa consectetur impedit necessitatibus aperiam
+                velit aliquid
+              </li>
+              <li>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+                magnam accusamus quas exercitationem necessitatibus deleniti
+                similique
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus veritatis dolor sint repudiandae, fugiat quod unde
+                fuga!
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus veritatis dolor sint repudiandae, fugiat quod unde
+                fuga!
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus veritatis dolor sint repudiandae, fugiat quod unde
+                fuga!
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus veritatis dolor sint repudiandae, fugiat quod unde
+                fuga!
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus veritatis dolor sint repudiandae, fugiat quod unde
+                fuga!
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus veritatis dolor sint repudiandae, fugiat quod unde
+                fuga!
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus veritatis dolor sint repudiandae, fugiat quod unde
+                fuga!
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="authorities">
+          <img src="president.png" alt="image" width="50%" />
+          <p>Hon. President<br />Mrs Draupadi Murmu</p>
+          <img src="prime_minister.png" alt="image" width="50%" />
+          <p>Hon. Prime Minister<br />Mr Narendra Modi</p>
+          <img src="chief_justice.png" alt="image" width="50%" />
+          <p>Hon. Chief Justice of India<br />Mr Dhananjaya Y. Chandrachud</p>
+        </div>
+      </div>
+    </section>
+    <section class="right_section">
+      <h2 class="news_header">Understanding your entitlements</h2>
+      <hr />
+      <div class="rights_and_laws">
+        <div class="rights">
+          <h2>Rights</h2>
+          <div class="two_boxes">
+            <div class="consumer">
+              <h2>Consumer Rights</h2>
+              <hr class="black" />
+              <p>
+                Means right to be protected against the marketing of goods and
+                services, which is hazardous to life and property. The purchased
+                goods and services availed of should not only meet their
+                immediate needs, but also fulfill long term ....<a href="#"
+                  >Read More</a
+                >
+              </p>
+            </div>
+            <div class="consumer">
+              <h2>Educational Rights</h2>
+              <hr class="black" />
+              <p>
+                Means right to be protected against the marketing of goods and
+                services , when are hazardous to life and property. The
+                purchased goods and services availed of should not only meet
+                their immediate needs, but also fulfill long term ....<a
+                  href="#"
+                  >Read More</a
+                >
+              </p>
+            </div>
+          </div>
+          <a href="#" class="seemore">See All</a>
+        </div>
+        <div class="rights">
+          <h2>Laws</h2>
+          <div class="two_boxes">
+            <div class="consumer">
+              <h2>Property Laws</h2>
+              <hr class="black" />
+              <p>
+                Means right to be protected against the marketing of goods and
+                services, which is hazardous to life and property. The purchased
+                goods and services availed of should not only meet their
+                immediate needs, but also fulfill long term ....<a href="#"
+                  >Read More</a
+                >
+              </p>
+            </div>
+            <div class="consumer">
+              <h2>Criminal Laws</h2>
+              <hr class="black" />
+              <p>
+                Means right to be protected against the marketing of goods and
+                services , when are hazardous to life and property. The
+                purchased goods and services availed of should not only meet
+                their immediate needs, but also fulfill long term ....<a
+                  href="#"
+                  >Read More</a
+                >
+              </p>
+            </div>
+          </div>
+          <a href="#" class="seemore">See All</a>
+        </div>
+        <div class="rights">
+          <h2>Legal Documents</h2>
+          <div class="two_boxes">
+            <div class="consumer">
+              <h2>Aadhaar Card</h2>
+              <hr class="black" />
+              <p>
+                Means right to be protected against the marketing of goods and
+                services, which is hazardous to life and property. The purchased
+                goods and services availed of should not only meet their
+                immediate needs, but also fulfill long term ....<a href="#"
+                  >Read More</a
+                >
+              </p>
+            </div>
+            <div class="consumer">
+              <h2>Voter Id</h2>
+              <hr class="black" />
+              <p>
+                Means right to be protected against the marketing of goods and
+                services , when are hazardous to life and property. The
+                purchased goods and services availed of should not only meet
+                their immediate needs, but also fulfill long term ....<a
+                  href="#"
+                  >Read More</a
+                >
+              </p>
+            </div>
+          </div>
+          <a href="#" class="seemore">See All</a>
+        </div>
+      </div>
+    </section>
+    <section class="legal_hotline">
+      <div class="hotline">
+        <img src="legal_hotline.jpg" fa="two_kicks" alt="img" width="20%" />
+        <h1>Legal Hotline</h1>
+        <p>get yourself guided by live legal advisors</p>
+        <button>START NOW</button>
+      </div>
+    </section>
+    <footer>
+      <div class="foot">
+        <div class="contacts">
+          <h2>Contact Details</h2>
+          <a href="#"
+            ><i class="fa-brands fa-linkedin fa-2x"></i>
+            <span>LinkedIn</span></a
+          >
+          <a href="#"
+            ><i class="fa-solid fa-envelope fa-2x"></i>
+            <span>pratapsinghakshat0@gmail.com</span></a
+          >
+          <a href="#"
+            ><i class="fa-brands fa-facebook fa-2x"></i>
+            <span>facebook</span></a
+          >
+          <a href="#"
+            ><i class="fa-brands fa-telegram fa-2x"></i>
+            <span>Telegram</span></a
+          >
+          <a href="#"
+            ><i class="fa-brands fa-square-whatsapp fa-2x"></i
+            ><span>Whatsapp</span></a
+          >
+        </div>
+        <div class="contacts quick_links">
+          <h2>Quick Links</h2>
+          <a href="#"> <span>National Portal of India</span></a>
+          <a href="#"> <span>Ministry of Law & Justice</span></a>
+          <a href="#"> <span>Department of Legal Affairs</span></a>
+          <h2>Feedback</h2>
+          <input
+            type="text"
+            name="feedback"
+            class="feedback"
+            placeholder="Write here..."
+          />
+          <button class="submit">SUBMIT</button>
+        </div>
+        <div class="chatbot">
+          <img
+            src="chatbot.png"
+            alt="image"
+            class="chatbot_image"
+            width="100vw"
+          />
+        </div>
+      </div>
+      <!-- <div class="ends">
+        <p class="end">
+          &#169; 2023, Portfolio.in, All rights reserved | Made by: Akshat
+          Pratap Singh
+        </p>
+      </div> -->
+    </footer>
+  </body>
+</html>
